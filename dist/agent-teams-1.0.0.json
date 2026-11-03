@@ -4,8 +4,8 @@
     "roster": "agent-teams",
     "version": "1.0.0",
     "title": "Agent Teams（wshobson/agents 迁移）",
-    "repo": null,
-    "ref": null,
+    "repo": "dsh-agent-roster/agent-teams",
+    "ref": "main",
     "lock": null,
     "file": "roster.yaml"
   },
