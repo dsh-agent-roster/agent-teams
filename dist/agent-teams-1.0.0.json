@@ -4,6 +4,17 @@
     "roster": "agent-teams",
     "version": "1.0.0",
     "title": "Agent Teams（wshobson/agents 迁移）",
+    "description": "把 wshobson/agents 的 agent-teams 插件（4.2 万星，MIT）迁移成 Agent Roster 档案：队长、实现者、审查者、调试者四个角色，保留上游的工具边界。",
+    "tags": [
+      "team",
+      "orchestration",
+      "claude-code",
+      "wshobson"
+    ],
+    "license": "MIT",
+    "maintainers": [
+      "STofone"
+    ],
     "repo": "dsh-agent-roster/agent-teams",
     "ref": "main",
     "lock": null,
