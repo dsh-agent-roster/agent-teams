@@ -1,0 +1,10 @@
+kind: dsh-agent-roster/space@1
+space: agent-teams
+title: agent-teams 示例档案
+description: 一份从 dsh-agent-teams 团队迁过来的 v2 档案：角色、组装、编译产物与施工图。
+license: MIT
+maintainers:
+  - STofone
+layout: monorepo
+rosters:
+  - id: agent-teams
