@@ -9,7 +9,7 @@
 
 - 仓库：[`wshobson/agents`](https://github.com/wshobson/agents/tree/main/plugins/agent-teams/agents)
 - 许可证：MIT
-- 星标：41,969
+- 星标：42,560
 - 迁移范围：plugins/agent-teams/agents/*.md 的 frontmatter + 正文；同插件里的 context-manager 属于 engineering 插件，未迁。
 
 上游文本按原意保留；改动只有三处：字段名换成本档案格式、工具名映射到 DSH 工具名、

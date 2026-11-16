@@ -10,7 +10,7 @@ it on top of `dsh-agent-teams`.
 
 - Repo: [`wshobson/agents`](https://github.com/wshobson/agents/tree/main/plugins/agent-teams/agents)
 - License: MIT
-- Stars: 41,969
+- Stars: 42,560
 - Scope: frontmatter and body of `plugins/agent-teams/agents/*.md`; the `context-manager` agent in the same
   plugin belongs to the engineering plugin and is not migrated.
 
