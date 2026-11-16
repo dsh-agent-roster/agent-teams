@@ -2,7 +2,7 @@ kind: "dsh-agent-roster/roster@2"
 id: "agent-teams"
 version: "1.0.0"
 title: "Agent Teams（wshobson/agents 迁移）"
-description: "把 wshobson/agents 的 agent-teams 插件（4.2 万星，MIT）迁移成 Agent Roster 档案：队长、实现者、审查者、调试者四个角色，保留上游的工具边界。"
+description: "把 wshobson/agents 的 agent-teams 插件（MIT）迁成档案：队长、实现者、审查者、调试者，保留上游工具边界。"
 license: "MIT"
 maintainers:
   - "STofone"
@@ -11,6 +11,15 @@ tags:
   - "orchestration"
   - "claude-code"
   - "wshobson"
+captain:
+  role: "agent-teams-team-lead@1.0.0"
+handover:
+  - title: "先核上游工具映射还成立，再看成员字段"
+    detail: "wshobson/agents 的 tools 列表是 Claude Code 的工具名；DSH 侧改名会让 toolPolicy 悄悄失效。"
+    verify: "roster_verify 报 0 降级；成员 toolPolicy 与角色 frontmatter 的 tools 对得上"
+  - title: "换代后把 review 顺序与调试入口重建到新会话"
+    detail: "team-lead 派活的顺序不在档案里，只在上一代会话的上下文里。"
+    verify: "新会话首条消息含本清单与上一代的 review 结论"
 targets:
   - "agent-teams/members"
 members:
